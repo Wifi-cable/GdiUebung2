@@ -8,6 +8,8 @@ public class Aufgabe1 { // should main be inside of class Aufgabe1?
 		System.out.println("Bitte eine ganze zahl eingeben um sie in Binär umgewandelt zu bekommen"); // input
 		int zahlDez = bin.nextInt(); // uses the input, assigns variable
 		calBin(zahlDez);
+		DezHex dez =new DezHex();
+		dez.dezToHex(zahlDez);
 	}
 
 	public static void calBin(int zahlDez){
@@ -35,6 +37,8 @@ public class Aufgabe1 { // should main be inside of class Aufgabe1?
 		System.out.println("das ist das ergebniss : "+resultStr);
 		GrayFromBin gray =new GrayFromBin();
 		gray.convertToGray(resultStr);
+		
+		
 		
 	}
 }
