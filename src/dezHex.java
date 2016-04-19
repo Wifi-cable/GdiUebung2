@@ -3,7 +3,7 @@ public class dezHex {
 	
 	private static Scanner dez;
 
-	public static void convertHex(String[] args) {
+	public static void main(String[] args) {
 		dez = new Scanner(System.in);
 		System.out.println("bitte ganze dezimalzahl eingeben");
 		int dez2Hex= dez.nextInt();
@@ -19,7 +19,7 @@ public class dezHex {
 		dez2Hex=dez2Hex/16;
 		
 		}
-		System.out.println(dez+"ist in Hexadezimal schreibweise"+hexMem);
+		System.out.println(dez2Hex+"ist in Hexadezimal schreibweise"+hexMem);
 	}
 
 }
