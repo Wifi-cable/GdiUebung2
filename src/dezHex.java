@@ -3,7 +3,7 @@ public class dezHex {
 	
 	private static Scanner dez;
 
-	public static void main(String[] args) {
+	public static void convertHex(String[] args) {
 		dez = new Scanner(System.in);
 		System.out.println("bitte ganze dezimalzahl eingeben");
 		int dez2Hex= dez.nextInt();
